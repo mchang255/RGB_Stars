@@ -1,0 +1,121 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2021-08-16T15:42:31 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	votable-version=1.99+ (14-Oct-2013)	
+#INFO	-ref=VIZ611a866ed17f9	
+#INFO	-out.max=unlimited	
+#INFO	queryParameters=34	
+#-oc.form=dec
+#-out.max=unlimited
+#-out.all=2
+#-out.add=_r
+#-out.add=_RAJ,_DEJ
+#-sort=_r
+#-nav=cat:J/A+A/391/967&tab:{J/A+A/391/967/table3}&tab:{J/A+A/391/967/table4}&key:source=OH/IR+stars&HTTPPRM:&&-ref=VIZ611a866ed17f9&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-order=I&-oc.form=sexa&-c.eq=J2000&-c.r=  2&-c.u=arcmin&-c.geom=r&-file=.&-meta.ucd=2&-meta=1&-meta.foot=1&-usenav=1&-bmark=POST&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-x.rs=10
+#-source=J/A+A/391/967/table3,J/A+A/391/967/table4
+#-order=I
+#-out=Name
+#-out=Set
+#-out=RAJ2000
+#-out=DEJ2000
+#-out=e_DEs
+#-out=VblueH2O
+#-out=VcentH2O
+#-out=VredH2O
+#-out=Speak
+#-out=Itotal
+#-out.all=2
+#-out=Delta
+#-out=Vsys42
+#-out=Sp42GHz
+#-out=Itot
+#-out=Vsys43
+#-out=Sp43GHz
+#-out=Itot43GHz
+#-out=Note
+#-out.all=2
+#
+#INFO	CatalogsExamined=2	
+#  2 catalogues with potential matches were examined.
+#
+
+#RESOURCE=yCat_33910967
+#Name: J/A+A/391/967
+#Title: H2O and SiO masers in the Galactic center (Sjouwerman+, 2002)
+#Table	J_A_A_391_967_table3:
+#Name: J/A+A/391/967/table3
+#Title: Serendipitous H2O maser detections in M-0.13-0.08
+#Column	_RAJ2000	(F12.8)	Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ2000	(F12.8)	Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	Name	(a13)	H2O Name	[ucd=meta.id;meta.main]
+#Column	Set	(A2)	Data Set ID	[ucd=meta.id]
+#Column	RAJ2000	(A12)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A12)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	e_DEs	(F6.3)	Formal error in position	[ucd=stat.error]
+#Column	VblueH2O	(F5.1)	? Blueshifted H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VcentH2O	(F5.1)	? Systemic/central H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VredH2O	(F4.1)	? Redshifted H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	Speak	(F5.2)	Peak flux density red-shifted H2O peak at 22GHz	[ucd=phot.flux.density;em.radio.12-30GHz]
+#Column	Itotal	(F5.2)	Integrated line flux red-shifted H2O peak at 22GHz	[ucd=phot.flux.density;em.radio.12-30GHz]
+_RAJ2000	_DEJ2000	Name	Set	RAJ2000	DEJ2000	e_DEs	VblueH2O	VcentH2O	VredH2O	Speak	Itotal
+deg	deg	 	 	"h:m:s"	"d:m:s"	arcsec	km/s	km/s	km/s	Jy	Jy.km/s
+------------	------------	-------------	--	------------	------------	------	-----	-----	----	-----	-----
+266.39775417	-29.09662778	359.859-0.079	2a	17 45 35.461	-29 05 47.86	 0.021	     	 12.6	    	 0.28	 0.48
+266.40123750	-29.09711944	359.861-0.082	1a	17 45 36.297	-29 05 49.63	 0.077	     	  8.7	    	 0.25	 1.85
+266.40157083	-29.09698889	359.861-0.082	2a	17 45 36.377	-29 05 49.16	 0.028	     	 10.0	    	 0.31	 1.80
+266.40607500	-29.09563333	359.864-0.084	1a	17 45 37.458	-29 05 44.28	 0.093	  4.7	     	11.3	 0.14	 0.77
+266.40505833	-29.09485556	359.864-0.083	2a	17 45 37.214	-29 05 41.48	 0.040	     	 10.0	    	 0.13	 0.33
+266.40636250	-29.09523056	359.864-0.084	1a	17 45 37.527	-29 05 42.83	 0.124	     	  3.4	    	 0.12	 1.48
+266.40698333	-29.09550000	359.864-0.085	2a	17 45 37.676	-29 05 43.80	 0.015	     	 28.4	    	 0.41	 0.87
+266.40763333	-29.09524444	359.865-0.085	1a	17 45 37.832	-29 05 42.88	 0.062	-17.7	     	-8.4	 0.95	 6.91
+266.40798750	-29.09517778	359.865-0.085	2a	17 45 37.917	-29 05 42.64	 0.019	-13.7	     	-7.1	 0.29	 1.22
+266.40730833	-29.08416389	359.874-0.079	1a	17 45 37.754	-29 05 02.99	 0.043	     	-13.7	    	 0.15	 0.98
+
+#Table	J_A_A_391_967_table4:
+#Name: J/A+A/391/967/table4
+#Title: SiO maser detections in OH/IR stars in the Galactic center
+#Column	_RAJ2000	(F12.8)	Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ2000	(F12.8)	Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	Name	(a13)	H2O Name	[ucd=meta.id;meta.main]
+#Column	Set	(A2)	Data Set ID	[ucd=meta.id]
+#Column	RAJ2000	(A12)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A12)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Delta	(F5.2)	Difference with OH position	[ucd=pos.angDistance]
+#Column	Vsys42	(F5.1)	? Systemic 42.820GHz SiO maser velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	Sp42GHz	(F5.2)	? Peak flux density 42.820GHz SiO maser	[ucd=phot.flux.density;em.mm.30-50GHz]
+#Column	Itot	(F5.2)	? Integrated line flux 42.820GHz SiO maser	[ucd=phot.flux.density;em.mm.30-50GHz]
+#Column	Vsys43	(F5.1)	? Systemic 43.122GHz SiO maser velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	Sp43GHz	(F5.2)	? Peak flux density 43.122GHz SiO maser	[ucd=phot.flux.density;em.mm.30-50GHz]
+#Column	Itot43GHz	(F5.2)	? Integrated line flux 43.122GHz SiO maser	[ucd=phot.flux.density;em.mm.30-50GHz]
+#Column	Note	(A1)	See Note (1)	[ucd=meta.note]
+_RAJ2000	_DEJ2000	Name	Set	RAJ2000	DEJ2000	Delta	Vsys42	Sp42GHz	Itot	Vsys43	Sp43GHz	Itot43GHz	Note
+deg	deg	 	 	"h:m:s"	"d:m:s"	arcsec	km/s	Jy	Jy.km/s	km/s	Jy	Jy.km/s	
+------------	------------	-------------	--	------------	------------	-----	-----	-----	-----	-----	-----	-----	-
+266.30445417	-29.15971944	359.763-0.042	4b	17 45 13.069	-29 09 34.99	 1.04	122.7	 0.17	 0.25	122.7	 0.19	 0.61	
+266.18525000	-29.09370278	359.765+0.082	4b	17 44 44.460	-29 05 37.33	 0.37	111.5	 0.62	 2.87	111.5	 0.97	 4.05	
+266.26351667	-29.12009722	359.778+0.010	4a	17 45 03.244	-29 07 12.35	 0.29	-28.4	 0.50	 1.47	-28.4	 0.58	 1.47	
+266.30803333	-29.11532500	359.803-0.021	4a	17 45 13.928	-29 06 55.17	 1.91	-16.3	 0.75	 3.79	-15.0	 0.31	 1.84	
+266.36000417	-29.13397222	359.810-0.070	4a	17 45 26.401	-29 08 02.30	 1.96	-36.6	 0.29	 1.58	-33.9	 0.22	 1.11	
+266.39487083	-29.10087222	359.855-0.078	4b	17 45 34.769	-29 06 03.14	 1.01	  4.0	 0.41	 2.62	  4.0	 0.38	 1.76	
+266.41932917	-29.00669444	359.946-0.047	4b	17 45 40.639	-29 00 24.10	 0.22	-27.3	 0.37	 3.47	-27.3	 0.44	 2.96	
+266.41115000	-28.99599167	359.952-0.036	4a	17 45 38.676	-28 59 45.57	 0.55	 84.9	 0.19	 0.27	 84.9	 0.28	 1.21	
+266.41770833	-28.99635000	359.954-0.041	4a	17 45 40.250	-28 59 46.86	 1.37	 69.9	 0.29	 1.33	 71.3	 0.19	 1.64	
+266.50402917	-29.02299167	359.971-0.119	4a	17 46 00.967	-29 01 22.77	 0.51	 -8.5	 2.13	 9.87	 -9.9	 0.47	 1.72	
+266.23182917	-28.87394722	359.974+0.162	4a	17 44 55.639	-28 52 26.21	 0.77	 27.7	 0.57	 2.24	 27.7	 0.51	 3.38	
+266.47653333	-29.00073889	359.977-0.087	2b	17 45 54.368	-29 00 02.66	 0.17	 10.8	 0.70	 3.80	     	     	     	*
+266.54338750	-29.01421389	359.996-0.144	4b	17 46 10.413	-29 00 51.17	 2.41	     	     	     	-32.3	 0.34	 0.79	
+266.49565000	-28.97634167	  0.007-0.088	2b	17 45 58.956	-28 58 34.83	 0.40	  4.0	 0.43	 1.52	     	     	     	*
+266.64735000	-28.98247778	  0.071-0.205	4a	17 46 35.364	-28 58 56.92	 0.68	114.1	 0.55	 1.20	114.1	 0.46	 1.00	
+266.56407083	-28.92847778	  0.079-0.114	4a	17 46 15.377	-28 55 42.52	 1.35	 51.4	 0.21	 2.48	     	     	     	
+266.39279167	-28.83220278	  0.083+0.064	4a	17 45 34.270	-28 49 55.93	 1.45	 23.3	 0.27	 0.92	 23.3	 0.28	 1.17	
+266.46391250	-28.80193333	  0.142+0.026	4a	17 45 51.339	-28 48 06.96	 0.11	 23.9	 0.26	 1.21	 23.9	 0.27	 0.77	
+

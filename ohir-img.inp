@@ -1,0 +1,11 @@
+#Parameters for getting postage images from IRSA
+#https://irsa.ipac.caltech.edu/onlinehelp/finderchart/#api.inputparameters
+#
+#survey = Specifies the survey dataset(s) to be retrieved. ("IRIS" can be used instead of "IRAS" for the same image set.) It can be one dataset (e.g. "survey=SDSS") or multiple datasets (e.g. "survey=SDSS,DSS,SEIP"). It defaults to the five datasets (DSS, SDSS, 2MASS, WISE, IRAS). Here are all the catalogs you can use: DSS, SDSS, 2MASS, WISE, SEIP, AKARI, IRAS. IRAS is not very informative at this spatial scale and will be removed from the default in the future. VERY IMPORTANT: MAKE SURE THERE ARE NO SPACES IN BETWEEN THE CATALOGS, ONLY COMMAS!
+survey = DSS,SDSS,2MASS,WISE,SEIP,AKARI,IRAS
+#subsetsize = Specifies the cutout size of the retrieved images in arcmin. It should be between 0.1 and 60.0 arcmin.
+subsetsize = 4.0
+#c_format = s (sexagesimal) or d (decimal)
+c_format = d
+#sep = separator in your coords file
+sep = ,

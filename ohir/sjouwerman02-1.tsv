@@ -1,0 +1,104 @@
+#
+#   VizieR Astronomical Server vizier.u-strasbg.fr
+#    Date: 2021-08-16T15:40:03 [V1.99+ (14-Oct-2013)]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	votable-version=1.99+ (14-Oct-2013)	
+#INFO	-ref=VIZ611a86abd27cf	
+#INFO	-out.max=unlimited	
+#INFO	queryParameters=27	
+#-oc.form=dec
+#-out.max=unlimited
+#-out.all=2
+#-out.add=_r
+#-out.add=_RAJ,_DEJ
+#-sort=_r
+#-nav=cat:J/A+A/391/967&tab:{J/A+A/391/967/table2}&key:source=J/A+A/391/967/table2&HTTPPRM:&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=J/A+A/391/967/table2
+#-order=I
+#-out=Name
+#-out=f_Name
+#-out=Set
+#-out=RAJ2000
+#-out=DEJ2000
+#-out=Delta
+#-out=VblueOH
+#-out=VredOH
+#-out=VblueH2O
+#-out=VsysH2O
+#-out=VredH2O
+#-out=Speak
+#-out=Itot
+#-out.all=2
+#
+
+#RESOURCE=yCat_33910967
+#Name: J/A+A/391/967
+#Title: H2O and SiO masers in the Galactic center (Sjouwerman+, 2002)
+#Table	J_A_A_391_967_table2:
+#Name: J/A+A/391/967/table2
+#Title: H2O maser detections in targeted 1612MHz OH masers in the Galactic center
+#Column	_RAJ2000	(F12.8)	Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.ra]
+#Column	_DEJ2000	(F12.8)	Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data. The format may include more digits than the original data because of internal accuracy requirements in VizieR and across other CDS services)	[ucd=pos.eq.dec]
+#Column	Name	(a13)	OH Name	[ucd=meta.id;meta.main]
+#Column	f_Name	(A1)	[#*] see Note (1)	[ucd=meta.code.error]
+#Column	Set	(A2)	Data Set ID	[ucd=meta.id]
+#Column	RAJ2000	(A12)	Right ascension (J2000)	[ucd=pos.eq.ra;meta.main]
+#Column	DEJ2000	(A12)	Declination (J2000)	[ucd=pos.eq.dec;meta.main]
+#Column	Delta	(F5.2)	Difference with OH position	[ucd=pos.angDistance]
+#Column	VblueOH	(F6.1)	? Blueshifted OH maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VredOH	(F6.1)	Redshifted OH maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VblueH2O	(F6.1)	? Blueshifted H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VsysH2O	(F6.1)	? Systemic/central H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	VredH2O	(F6.1)	? Redshifted H2O maser component velocity	[ucd=spect.dopplerVeloc;spect.line]
+#Column	Speak	(F5.2)	Peak flux density red-shifted H2O peak at 22GHz	[ucd=phot.flux.density;em.radio.12-30GHz]
+#Column	Itot	(F5.2)	Integrated line flux red-shifted H2O peak at 22GHz	[ucd=phot.flux.density;em.radio.12-30GHz]
+_RAJ2000	_DEJ2000	Name	f_Name	Set	RAJ2000	DEJ2000	Delta	VblueOH	VredOH	VblueH2O	VsysH2O	VredH2O	Speak	Itot
+deg	deg	 	 	 	"h:m:s"	"d:m:s"	arcsec	km/s	km/s	km/s	km/s	km/s	Jy	Jy.km/s
+------------	------------	-------------	-	--	------------	------------	-----	------	------	------	------	------	-----	-----
+266.03071667	-29.40212500	359.429+0.035	*	1a	17 44 07.372	-29 24 07.65	10.72	 -10.8	  17.6	  -0.6	      	      	 0.50	 0.74
+266.01707500	-29.33191667	359.487+0.081	*	1a	17 44 04.098	-29 19 54.90	 7.74	 -70.9	 -30.1	 -74.2	 -47.9	      	 0.30	 0.59
+265.94010000	-29.25968333	359.508+0.179	*	1b	17 43 45.624	-29 15 34.86	14.58	-139.9	-100.2	-134.5	      	 -98.9	 0.25	 0.56
+265.94488333	-29.26050833	359.513+0.174	 	1c	17 43 46.772	-29 15 37.83	 1.02	 109.2	 129.7	 114.2	      	      	 0.23	 0.95
+266.11522917	-29.34684167	359.517+0.001	 	1a	17 44 27.655	-29 20 48.63	 2.33	-145.6	-111.5	-146.9	      	-111.4	 0.22	 0.44
+266.48985833	-29.31939167	359.712-0.263	 	1c	17 45 57.566	-29 19 09.81	 0.17	      	  -5.1	      	 -17.0	  -7.7	 0.35	 1.08
+266.64845417	-29.36380000	359.745-0.404	 	1b	17 46 35.629	-29 21 49.68	 2.28	 169.4	 203.5	 173.3	      	      	 0.18	 0.56
+266.61963333	-29.34143333	359.751-0.371	#	1b	17 46 28.712	-29 20 29.16	 1.36	      	  -8.5	 -25.6	      	  -9.8	 1.05	 7.95
+266.19162083	-29.10385000	359.760+0.072	 	1c	17 44 45.989	-29 06 13.86	 0.59	 -76.3	 -34.6	 -73.3	      	      	 0.14	 0.75
+266.18548750	-29.09449167	359.765+0.082	 	1c	17 44 44.517	-29 05 40.17	 3.11	  95.6	 127.4	  93.1	 107.6	      	 0.17	 1.69
+266.46948333	-29.24258056	359.768-0.207	 	1a	17 45 52.676	-29 14 33.29	 2.57	-173.9	-135.4	-169.1	      	-136.2	 0.08	 0.28
+266.65978333	-29.32351667	359.783-0.392	 	1a	17 46 38.348	-29 19 24.66	 6.97	 194.4	 221.0	      	 209.0	 226.1	 0.10	 0.12
+266.19100833	-29.01183056	359.837+0.120	 	1a	17 44 45.842	-29 00 42.59	 2.49	-374.0	-336.0	      	-341.8	      	 0.09	 0.39
+266.39472500	-29.10075000	359.855-0.078	 	1a	17 45 34.734	-29 06 02.70	 1.01	 -18.7	  25.5	  -8.4	      	  21.8	 0.16	 2.03
+266.40998333	-29.05995278	359.897-0.065	 	2a	17 45 38.396	-29 03 35.83	 5.92	-154.0	-126.0	      	-132.1	      	 0.08	 0.15
+266.38970000	-29.03784444	359.906-0.041	 	2a	17 45 33.528	-29 02 16.24	 0.51	-161.4	-121.7	-156.0	      	-125.7	 0.63	 1.96
+266.32900417	-28.98248333	359.924+0.034	*	1c	17 45 18.961	-28 58 56.94	 5.61	 -94.5	 -72.1	 -92.5	      	      	 0.17	 0.53
+266.50819167	-29.06632778	359.936-0.144	#	1b	17 46 01.966	-29 03 58.78	 1.32	      	 -11.9	      	 -13.2	      	 1.52	 9.47
+266.50820417	-29.06624444	359.936-0.144	#	2a	17 46 01.969	-29 03 58.48	 1.00	      	 -11.9	      	 -19.8	      	 1.88	 5.76
+266.11681250	-28.84696667	359.943+0.260	 	1a	17 44 28.035	-28 50 49.08	 7.54	-202.3	-168.3	-202.4	      	      	 0.10	 0.44
+266.41947500	-29.00653056	359.946-0.047	 	2a	17 45 40.674	-29 00 23.51	 0.74	 -47.1	  -7.4	 -44.3	      	      	 0.46	 0.93
+266.42812083	-28.99911944	359.956-0.050	 	1c	17 45 42.749	-28 59 56.83	 1.31	  34.2	  66.2	  44.8	      	      	 0.35	 1.44
+266.42817917	-28.99922222	359.956-0.050	 	2a	17 45 42.763	-28 59 57.20	 1.24	  34.2	  66.2	  43.5	      	  56.7	 0.16	 0.62
+266.43481667	-28.98694167	359.970-0.049	 	2a	17 45 44.356	-28 59 12.99	 0.26	  37.5	  94.5	      	      	  92.2	 0.07	 0.31
+266.50412500	-29.02306667	359.971-0.119	 	2a	17 46 00.990	-29 01 23.04	 0.57	 -27.8	  10.8	 -23.0	      	   4.7	 0.09	 0.35
+266.48386250	-28.93103056	  0.040-0.056	 	2a	17 45 56.127	-28 55 51.71	 0.47	  50.5	  92.2	  56.9	      	      	 0.24	 0.77
+266.45518333	-28.89150833	  0.060-0.018	*	2a	17 45 49.244	-28 53 29.43	12.93	 -23.3	  15.3	      	  -1.4	  15.7	 0.06	 0.12
+266.32347917	-28.81012778	  0.071+0.127	 	1c	17 45 17.635	-28 48 36.46	 1.00	 -55.0	 -17.6	 -52.8	      	      	 0.20	 0.36
+266.64883333	-28.98288611	  0.071-0.205	 	1a	17 46 35.720	-28 58 58.39	 5.15	  99.0	 126.3	      	 110.1	 128.5	 0.10	 0.10
+266.30781667	-28.79501389	  0.076+0.146	 	1b	17 45 13.876	-28 47 42.05	 1.77	   0.6	  42.6	   5.8	      	  33.5	 0.09	 0.63
+266.50590417	-28.83515833	  0.134-0.023	*	1c	17 46 01.417	-28 50 06.57	 6.31	 -41.4	   0.6	 -40.2	      	      	 0.18	 0.60
+266.46772917	-28.80391944	  0.142+0.026	*	1b	17 45 52.255	-28 48 14.11	13.71	   0.6	  47.1	   2.8	  25.2	  48.9	 0.12	 0.32
+266.56593750	-28.80989444	  0.178-0.055	*	1a	17 46 15.825	-28 48 35.62	13.61	 -52.8	 -19.9	 -48.8	      	 -23.7	 0.11	 0.46
+266.48047917	-28.75755833	  0.190+0.036	*	1a	17 45 55.315	-28 45 27.21	10.72	 144.4	 173.9	 143.4	      	      	 0.11	 0.19
+266.56232917	-28.61303333	  0.349+0.053	*	1c	17 46 14.959	-28 36 46.92	 9.08	  17.6	  46.0	      	  39.7	      	 0.29	 0.47
+266.47524583	-28.52922222	  0.379+0.159	 	1a	17 45 54.059	-28 31 45.20	 3.54	 124.0	 154.6	 127.4	 139.3	 153.8	 0.12	 0.24
+266.77040417	-28.49438333	  0.543-0.043	 	1b	17 47 04.897	-28 29 39.78	 4.29	 -23.3	  16.5	 -16.6	      	      	 1.20	 5.41
+266.78781667	-28.49768056	  0.548-0.059	 	1c	17 47 09.076	-28 29 51.65	 4.75	 -64.1	  -0.5	      	      	 -16.5	 0.40	 0.63
+266.85680417	-28.48906944	  0.589-0.108	 	1c	17 47 25.633	-28 29 20.65	 7.89	-214.8	-185.3	      	-202.6	-189.5	 0.32	 0.87
+

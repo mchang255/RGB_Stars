@@ -320,6 +320,8 @@ Ex for running: if I want my root to be 'abc,' then I will type
     
 ------- Getting Photometry and Dictionary Program -------
 
+NOTE: I DID NOT write the majority of this program (I added on to the code at the end, specifically outputting sed-for-MOD). Thank you to Sahai's previous interns for creating this program!
+
   * Location: /mchang-JPL2021/python_phot-lum-colors/photometry/get-dict-phot.py *
   
   root: root-#asec
@@ -388,6 +390,8 @@ Ex for running: if I want my root to be 'abc,' then I will type
        
 ------- SED Plotting Program -------
 
+NOTE: I DID NOT write the majority of this program (I added on to the code at the end, specifically calculating luminosities). Thank you to Sahai's previous interns for creating this program!
+
 * Location: ~/mchang-JPL2021/python_phot-lum-colors/photometry/phot_plotter.py *
 
 root: root-#asec
@@ -426,15 +430,25 @@ directory: root-#asec
 
 - Run this program from the same directory as get-dict-phot.py. This will be run from the terminal as: python phot_plotter.py root.inp
        
-    ------- Color-Color Plotting Program -------
-      * Location: /mchang-JPL2021/python_phot-lum-colors/photometry/color-color_plotter.py *
-        root: root
-        directory: root_colors
-       - Program Purpose: Plots 2D and 3D color-color diagrams. Then, runs k-means clustering on these plots and labels centroids. Returns a .txt file with the locations of the centroids.
-       -This program can take multiple input photometry files and plot their color-color points on the same diagram. Just add more coords files to the root_colors.inp file.
-       - Outputs: color-color plots, k-means plots, centroid locations .txt file
-       - Running Procedure: Create a file called root_colors.inp in the same directory as the program. This .inp file is formatted as written below (2.2.1). In addition, you may need to modify the code, specifically where the code is looking through a directory creaetd from get-dict-phot.py You may need to change the name of the directory in the code with the search radius that you specified.
-        Run this program from the same directory as get-dict-phot.py. This will be run from the terminal as: python color-color_plotter.py root_colors.inp
+------- Color-Color Plotting Program -------
+
+NOTE: I DID NOT write this program. Thank you to Sahai's previous interns for creating this program!
+
+* Location: /mchang-JPL2021/python_phot-lum-colors/photometry/color-color_plotter.py *
+
+  root: root
+  
+  directory: root_colors
+  
+ - Program Purpose: Plots 2D and 3D color-color diagrams. Then, runs k-means clustering on these plots and labels centroids. Returns a .txt file with the locations of the centroids.
+ 
+ -This program can take multiple input photometry files and plot their color-color points on the same diagram. Just add more coords files to the root_colors.inp file.
+ 
+ - Outputs: color-color plots, k-means plots, centroid locations .txt file
+ 
+ - Running Procedure: Create a file called root_colors.inp in the same directory as the program. This .inp file is formatted as written below (2.2.1). In addition, you may need to modify the code, specifically where the code is looking through a directory creaetd from get-dict-phot.py You may need to change the name of the directory in the code with the search radius that you specified.
+ 
+- Run this program from the same directory as get-dict-phot.py. This will be run from the terminal as: python color-color_plotter.py root_colors.inp
         
                ------- Input Colors File -------
                 This file is named 'root_colors.inp' and is a text file that specifies all the input parameters to run color-color_plotter.py. The format of this file should be like root.inp as so:
